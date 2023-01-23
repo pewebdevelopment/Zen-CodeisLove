@@ -583,15 +583,7 @@
 import { toRefs } from "vue";
 
 export default {
-  setup() {
-    const state = Nuxtive({
-      count: 0,
-    });
-
-    return {
-      ...toRefs(state),
-    };
-  },
+  setup() {},
 };
 </script>
 
