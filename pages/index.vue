@@ -127,7 +127,9 @@
 
             <ul class="flex space-x-8 font-medium">
               <li>
-                <NuxtLink to="/" class="menu-link menu-link-hover"
+                <NuxtLink
+                  to="/"
+                  class="menu-link menu-link-hover dark:bg-gray-900 dark:text-yellow-50"
                   >Resume</NuxtLink
                 >
               </li>
