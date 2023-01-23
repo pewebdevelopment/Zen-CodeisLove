@@ -127,20 +127,18 @@
 
             <ul class="flex space-x-8 font-medium">
               <li>
-                <a href="/public/index.html" class="menu-link menu-link-hover"
-                  >Resume</a
+                <NuxtLink to="/" class="menu-link menu-link-hover"
+                  >Resume</NuxtLink
                 >
               </li>
               <li>
-                <a
-                  href="/public/products.html"
-                  class="menu-link-active menu-link-hover"
-                  >Products</a
+                <NuxtLink to="/products" class="menu-link menu-link-hover"
+                  >Products</NuxtLink
                 >
               </li>
               <li>
-                <a href="/public/blog.html" class="menu-link menu-link-hover"
-                  >Blog</a
+                <NuxtLink to="/blog" class="menu-link menu-link-hover"
+                  >Blog</NuxtLink
                 >
               </li>
             </ul>

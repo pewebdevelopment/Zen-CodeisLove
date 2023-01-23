@@ -124,34 +124,27 @@
             </div>
 
             <div class="border-t border-gray-200 my-5"></div>
-
             <ul class="flex space-x-8 font-medium">
               <li>
-                <a href="/public/index.html" class="menu-link menu-link-hover"
-                  >Resume</a
+                <NuxtLink to="/" class="menu-link menu-link-hover"
+                  >Resume</NuxtLink
                 >
               </li>
               <li>
-                <a
-                  href="/public/products.html"
-                  class="menu-link menu-link-hover"
-                  >Products</a
+                <NuxtLink to="/products" class="menu-link menu-link-hover"
+                  >Products</NuxtLink
                 >
               </li>
               <li>
-                <a
-                  href="/public/blog.html"
-                  class="menu-link-active menu-link-hover"
-                  >Blog</a
+                <NuxtLink to="/blog" class="menu-link menu-link-hover"
+                  >Blog</NuxtLink
                 >
               </li>
             </ul>
           </div>
           <!-- End About Me Block -->
 
-          <a
-            href="/public/single-article.html"
-            class="article-title-hover block"
+          <NuxtLink to="/single-article" class="article-title-hover block"
             ><!-- Start Articles Block -->
             <article class="article-section">
               <div class="space-y-3 mb-5 p-7 pb-0">
@@ -181,12 +174,10 @@
                   alt=""
                 />
               </div>
-            </article> </a
+            </article> </NuxtLink
           ><!-- Start Articles Block -->
 
-          <a
-            href="/public/single-article.html"
-            class="article-title-hover block"
+          <NuxtLink to="/single-article" class="article-title-hover block"
             ><!-- Start Articles Block -->
             <article class="article-section">
               <div class="space-y-3 mb-5 p-7 pb-0">
@@ -216,7 +207,7 @@
                   alt=""
                 />
               </div>
-            </article> </a
+            </article> </NuxtLink
           ><!-- Start Articles Block -->
         </div>
         <!-- End Right Side -->

@@ -1,7 +1,4 @@
 <template>
-  <!-- <div class="bg-gray-900 text-white flex justify-center">
-    <h1>Index Page</h1>
-  </div> -->
   <body class="bg-gray-100 antialiased">
     <main class="main-container">
       <div class="grid gap-5 lg:grid-cols-3">
@@ -130,22 +127,18 @@
 
             <ul class="flex space-x-8 font-medium">
               <li>
-                <a
-                  href="/public/index.html"
-                  class="menu-link-active menu-link-hover"
-                  >Resume</a
+                <NuxtLink to="/" class="menu-link menu-link-hover"
+                  >Resume</NuxtLink
                 >
               </li>
               <li>
-                <a
-                  href="/public/products.html"
-                  class="menu-link menu-link-hover"
-                  >Products</a
+                <NuxtLink to="/products" class="menu-link menu-link-hover"
+                  >Products</NuxtLink
                 >
               </li>
               <li>
-                <a href="/public/blog.html" class="menu-link menu-link-hover"
-                  >Blog</a
+                <NuxtLink to="/blog" class="menu-link menu-link-hover"
+                  >Blog</NuxtLink
                 >
               </li>
             </ul>
