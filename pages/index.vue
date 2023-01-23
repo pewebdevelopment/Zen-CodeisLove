@@ -312,7 +312,11 @@
                   voluptatem voluptatibus enim voluptas necessitatibus. Aut
                   quasi sunt dolor. Commodi dolores saepe asperiores beatae
                   voluptate corporis est ea voluptatem. Enim quo sed et sint
-                  aspernatur distinctio qui quam.
+                  aspernatur distinctio qui quam. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Recusandae obcaecati voluptas
+                  illo excepturi porro, quod natus quam blanditiis consequatur
+                  aliquam, architecto pariatur perferendis laborum, ducimus
+                  accusantium nulla eligendi ipsa consectetur.
                 </p>
                 <div class="border-b border-gray-200"></div>
               </div>
