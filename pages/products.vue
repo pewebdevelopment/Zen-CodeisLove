@@ -1,4 +1,4 @@
-<tenplate>
+<template>
   <body class="bg-gray-100 antialiased">
     <main class="main-container">
       <div class="grid gap-5 lg:grid-cols-3">
@@ -309,4 +309,4 @@
       </div>
     </main>
   </body>
-</tenplate>
+</template>
