@@ -580,7 +580,7 @@
 </template>
 
 <script>
-import { Nuxtive, toRefs } from "vue";
+import { toRefs } from "vue";
 
 export default {
   setup() {
