@@ -15,11 +15,11 @@
               <span class="status-badge bg-gray-400">Busy</span>
               <a href="/"
                 ><img
-                  src="assets/img/avatar.jpg"
+                  src="assets/img/zenith.jpg"
                   alt="Avatar"
                   class="user-photo"
               /></a>
-              <div class="text-lg font-semibold mb-1.5">Cristopher Abbott</div>
+              <div class="text-lg font-semibold mb-1.5">Zenith Athang</div>
               <div class="text-sm text-gray-400 mb-7">Senior Developer</div>
               <div class="flex group">
                 <button class="download-btn">Download CV</button>
@@ -73,7 +73,7 @@
             <h2 class="block-title">Skills</h2>
             <div class="-m-2 flex flex-wrap">
               <span class="skill-tag">JavaScript</span>
-              <span class="skill-tag">React</span>
+              <span class="skill-tag">Nuxt</span>
               <span class="skill-tag">Vue</span>
               <span class="skill-tag">SQL</span>
               <span class="skill-tag">HTML/CSS</span>
