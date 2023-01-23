@@ -11,11 +11,11 @@
 </template>
 
 <script>
-import { reactive, toRefs } from "vue";
+import { Nuxtive, toRefs } from "vue";
 
 export default {
   setup() {
-    const state = reactive({
+    const state = Nuxtive({
       count: 0,
     });
 
