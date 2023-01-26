@@ -2,6 +2,12 @@ export default defineNuxtConfig({
   srcDir: "./",
   css: ["@/assets/css/main.css"],
 
+compilerOptions: {
+  isCustomElement: tagName => {
+    return tagName === 'vue-advanced-chat' || tagName === 'emoji-picker'
+  }
+}
+
   modules: [
     // ...
     [
