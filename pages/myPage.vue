@@ -10,20 +10,4 @@
   </div>
 </template>
 
-<script>
-import { Nuxtive, toRefs } from "vue";
-
-export default {
-  setup() {
-    const state = Nuxtive({
-      count: 0,
-    });
-
-    return {
-      ...toRefs(state),
-    };
-  },
-};
-</script>
-
 <style lang="scss" scoped></style>
